@@ -1,0 +1,13 @@
+How to fix VSCode python
+Ctrl+Shift+P:
+	Select Python Interpreter
+	Python 3.6.5 (Anaconda)
+Open new terminal:
+
+C:/ProgramData/Anaconda3/Scripts/activate
+conda activate base
+python
+print("python")
+import pandas
+import folium
+import matplotlib
