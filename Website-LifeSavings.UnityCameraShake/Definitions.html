@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 60px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      transition: 1s;
+      display: block;
+    }
+</style>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+            <div class="dropdown">
+                <span>Electricity</span>
+                    <div class="dropdown-content"> 
+                      <a href="Definitions.html">All Definitions</a>
+                      <p>---------------</p>
+                      <a href="Ohm's Law.html">Ohm's Law</a>
+                      <p>---------------</p>
+                      <a href="Series and Parallel circuits.html">Series and Parallel circuits</a>
+                      <p>---------------</p>
+                      <a href="Power.html">Power</a>
+                      <p>---------------</p>
+                      <a href="Application to Real World.html">Application to Real World</a>
+                    </div>
+            </div>
+        </div>
+
+
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          Divyesh Thirukonda
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="two-column-wrapper">
+  
+          
+  
+          <div class="profile-content-wrapper">
+            <h1>Definitions</h1>
+            
+            <p>Voltage</p>
+            <p>Voltage is a measure of the difference in the electric potential energy of a circuit.</p>
+            <p>Voltage is measured in volts (V)</p>
+            <p>The voltage of a circuit may drop across certain parts of the circuit. This is due to the resistance of a circuit. It slows down the voltage by coverting some of the electrical energy into other forms</p>
+
+            <p>Current</p>
+            <p>Current is the flow of electrons in a circuit</p>
+            <p>Current is measured in amperes (A)</p>
+            <p>The amount of electric current coming out of the negative end of the battery will be the same as the current flowing into the positive end. This means that the current is equal in all parts of a series circuit</p>
+
+            <p>Resistance</p>
+            <p>Resistance is the measure of how strongly an object resists current flow through it</p>
+            <p>Resistance is measured in ohms</p>
+            <p>Conductors have a lower resistance while insulators have a higher resistance. Resistance could also occur through the conversion of electrical energy to another form of energy</p>
+
+
+
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
