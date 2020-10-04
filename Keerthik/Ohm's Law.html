@@ -3,18 +3,39 @@
 
 <head>
   <meta charset='UTF-8'>
-  <title>My Homepage</title>
+  <title>Portfolio Homepage</title>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
+<style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 60px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      transition: 1s;
+      display: block;
+    }
+</style>
 
 <body>
   <div class="container">
     <div class="nav-wrapper">
       <div class="left-side">
 
-        <div class="nav-link-wrapper active-nav-link">
+        <div class="nav-link-wrapper">
           <a href="index.html">Home</a>
         </div>
 
@@ -39,13 +60,34 @@
             </div>
         </div>
 
+
       </div>
+
       <div class="right-side">
         <div class="brand">
           Divyesh Thirukonda
         </div>
       </div>
     </div>
-  </div>
+
+    <div class="content-wrapper">
+        <div class="two-column-wrapper">
+  
+          
+  
+          <div class="profile-content-wrapper">
+            <h1>Ohm's Law</h1>
+            <p>Ohm's law is the relationship between voltage, current, and resistance in a circuit</p>
+            <p>I = V/R</p>
+            <p>V = IR</p>
+            <p>R = V/I</p>
+            <p>As the resistance of a circuit goes up, the current decreasse and vice versa. As the voltage increases, the current increases proportionally</p>
+
+
+          </div>
+        </div>
+      </div>
+
 </body>
+
 </html>
