@@ -159,6 +159,12 @@ html, body {
   .dropdown {
     position: relative;
     display: inline-block;
+    color: #8a8a8a;
+    transition: 0.5s
+  }
+
+  .dropdown:hover {
+    color: black;
   }
   
   .dropdown-content {
