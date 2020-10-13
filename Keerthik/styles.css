@@ -1,12 +1,13 @@
 html, body {
     background-color: #fff;
     font-family: "Lato", sans-serif;
+    color: #fff;
     margin: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 .main-nav {
@@ -38,15 +39,16 @@ html, body {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #f1c40f;
+  transition: .5s;
 }
 
 .dropdown {
-  position: absolute;
+  position: relative;
   display: inline-block;
 }
-  
+
 .dropdown-content {
-  position: relative;
+  position: absolute;
   background-color: #34495e;
   min-width: 60px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -54,11 +56,11 @@ html, body {
   z-index: 1;
   margin-bottom: 5px;
   display: none;
+  border-radius: 5px;
 }
 
 .dropdown:hover
 .dropdown-content {
-  transition: 1s;
   display: block;
 }
 
